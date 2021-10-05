@@ -29,7 +29,7 @@ function makeBoard() {
 function makeHtmlBoard() {
   // get "htmlBoard" variable from the item in HTML w/ID of "board"
   const board = document.getElementById('board');
-  // add comment for this code
+  
   // create tag to define row of cells in board
   const top = document.createElement("tr");
   // create attribute to tr tag, its gonna be the first row
@@ -152,7 +152,7 @@ function checkForWin() {
     );
   }
 
-  // read and understand this code. Add comments to help you.
+
   // this is a nested loop to check 2D-board if there is a column, a row or a diagonal that has four cells in the same color next to each other
   // loop through rows 
   for (var y = 0; y < HEIGHT; y++) {
@@ -186,5 +186,6 @@ startBtn.addEventListener('click', restart, false)
 
 
 
+ythtj
 
 
