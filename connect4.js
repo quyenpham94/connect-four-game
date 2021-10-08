@@ -186,6 +186,6 @@ startBtn.addEventListener('click', restart, false)
 
 
 
-ythtj
+
 
 
